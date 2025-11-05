@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Practice</title>
+    <style>
+        *{
+            color: blue;
+        }
+
+       .heading-class1{
+           border: 2px solid red; 
+           color: rgb(17, 132, 9);
+        }
+
+        ul li{
+            color: red;
+            border: 2px solid black;
+            display: block;
+        }
+
+        #p-id{
+            border: 5px solid yellow;
+        }
+        
+        #header{
+            background-color: rgb(0, 204, 245);
+        }
+        .unit-mm{
+            font-size: 5mm;
+        
+        }
+        .unit-cm{
+            font-size: 1cm;
+
+        }
+        .unit-inch{
+            font-size: 0.5in;
+
+        }
+        .unit-Q{
+            font-size: 40q;
+
+        }
+        .unit-px{
+            font-size: 10px;
+
+        }
+
+        .border-class{
+            border-style: dotted;
+            border-top-width:5px;
+            border-radius: 5px;
+            border-bottom-color: rgb(70, 255, 63);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 50px;
+        }
+        li{
+            display: inline;
+            display: flex;
+
+        }
+
+        .box1{
+            position:absolute;
+            height: 200px;
+            width: 280px;
+            background-color: antiquewhite;
+            z-index: auto;
+            text-align: center;
+            padding: 3px;
+            left: 10px;
+            top: 10px;
+
+        }
+        .box2{
+            position:absolute;
+            height: 120px;
+            width: 200px;
+            background-color: rgb(44, 161, 79);
+            z-index: 1;
+            text-align: center;
+            padding: 5px;
+            margin: 20px;
+            left: 30px;
+            top: 30px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="heading-class1" id="header">This is header</h1>
+    <h1 class="heading-class1">Outside Of Css</h1>
+    <p id="p-id">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+     Mollitia libero perspiciatis aliquid atque aliquam quisquam 
+     laborum! Laborum aut quidem totam.</p>
+     <ul>
+        <li>Abir</li>
+        <li>Rajin</li>
+        <li>Ala Uddin</li>
+     </ul>
+     <li>Not Work Here</li>
+      
+     <h2 class="unit-mm">Font Size 5mm</h2>
+     <h2 class="unit-cm">Font Size 1cm</h2>
+     <h2 class="unit-inch">Font Size 0.5inch</h2>
+     <h2 class="unit-Q">Font Size 40Q</h2>
+     <h2 class="unit-px">Font Size 10px</h2>
+
+     <p class="border-class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+        eum vitae atque numquam inventore sint explicabo, perferendis totam 
+        sequi eveniet placeat repellat aliquid nemo natus fugiat labore, 
+        esse ipsa!</p>
+
+    <li>Abir</li>
+    <li>Rajin</li>
+    <li>Ala Uddin</li>
+
+    <br><br>
+
+    <div class="box1">
+        <Span>CSS z-index:auto</Span>
+        <div class="box2">
+            <span>Css z-index:1</span>
+        </div>
+
+    </div>
+</body> 
+</html>
