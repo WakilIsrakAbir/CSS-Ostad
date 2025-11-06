@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(183, 228, 190);
+}
+h1{
+    color: rgb(233, 33, 33);
+}
+p{
+    background-color: rgb(170, 123, 214);
+    font-size: 30px;
+}
+
+.demo-cursor{
+    text-align: center;
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.move{
+    cursor: move;
+}
+.not_allow{
+    cursor: not-allowed;
+}
+.progress{
+    cursor: progress;
+}
+.zoomIN{
+    cursor: zoom-in;
+}
